@@ -1,0 +1,13 @@
+name = "jsp000301"
+defaultTargets = ["Jsp000301", "AxiomAudit"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "ae0d973d69b779efa724095bd41793b8cf233831"
+
+[[lean_lib]]
+name = "Jsp000301"
+
+[[lean_lib]]
+name = "AxiomAudit"
